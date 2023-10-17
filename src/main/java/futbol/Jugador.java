@@ -23,7 +23,7 @@ public class Jugador extends Futbolista{
         return diferencia;
     }
     public String toString(){
-        return "El futbolista "+this.getNombre()+" tiene "+this.getEdad()+",y juega de "+
+        return "El futbolista "+this.getNombre()+" tiene "+this.getEdad()+", y juega de "+
         this.getPosicion()+" con el dorsal "+this.dorsal+". Ha marcado "+ this.golesMarcados;
     }
 
